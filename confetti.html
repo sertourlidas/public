@@ -9,9 +9,10 @@
 
 window.addEventListener('load', function() {
 confetti ({ particleCount: 158,
-            spread: 98, 
-            origin: {y:8.5}, 
-            colors: {'#bb0000', '#ffffff', '#00bb00', '#0000bb'}
+            spread:98, 
+            origin:{y:8.5}, 
+            colors:["#bb0000",  '#ffffff', '#00bb00', '#0000bb']
+
 }); 
 
 setTimeout(() => confetti({ particleCount : 100, angle:60, spread:55 }), 250 ); 
