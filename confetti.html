@@ -1,0 +1,23 @@
+<html>
+<head>
+
+<script src="https://cdn.jdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+<script>
+
+window.addEventListener('load', function() {
+confetti ({ particleCount: 158,
+            spread: 98, 
+            origin: {y:8.5}, 
+            colors: {''}
+}); 
+
+setTimeout(() => confetti({ particleCount : 100, angle:60, spread:55 }), 250 ); 
+setTimeout(() => confetti({ particleCount : 100, angle:120, spread:55 }), 500 ); 
+})
+</script>
+
+</body>
+</html>
