@@ -1,2 +1,2 @@
 # public
-PublicRepo
+Simple Confetti page sample
